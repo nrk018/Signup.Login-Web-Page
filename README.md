@@ -3,6 +3,12 @@
 ## Overview
 The **Signup/Login Page** project is a simple yet functional web-based user authentication system, designed with modern web technologies including HTML, CSS, and JavaScript. The project focuses on user-friendly design, responsive layouts, and dynamic form validation, offering a seamless experience for users registering or logging into a web application.
 
+
+
+https://github.com/user-attachments/assets/82862bc4-4a13-491f-b188-e9078316eeef
+
+
+
 ## Features
 
 1. **Responsive Design**:
