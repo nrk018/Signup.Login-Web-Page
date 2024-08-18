@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        window.onload = function() { // When the page is loaded get the first name from the local storage and display a welcome message
+            const firstName = localStorage.getItem('firstName');
+            const welcomeMessage = document.getElementById('welcome-message');
+
+            if (firstName) { // If the first name is available, display a welcome message with the first name
+                welcomeMessage.innerText = `Welcome, ${firstName}! You have successfully signed up.`;
+            } else {
+                welcomeMessage.innerText = `Welcome!`;
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 id="welcome-message" style="font-size: smaller;"></h1>
+    </div>
+</body>
+</html>
